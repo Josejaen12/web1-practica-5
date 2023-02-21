@@ -1,0 +1,86 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+
+    /* sirve para poner a una caja a la par de la otra */
+display:flex;
+
+
+
+/* direccion de la caja */
+flex-direction: row;
+
+/* wrap/*
+evita que se salga de la caja el exceso de elementos 
+y los coloca debajo */
+flex-wrap: wrap;
+
+
+/* wrap/*
+une las propiedades de direccion y wrap*/
+flex-flow: row wrap;
+
+
+/* justify-content/*
+sirve para ajustar el contenedor */
+justify-content: center;
+
+
+
+
+}
+.caja{
+    
+    background-color: white;
+    width: 50%;
+    border: 2px solid;
+    padding: 15px;
+    margin: 20px;
+    height: 40%;
+    border: 2px;   
+    text-align: center;
+ font-size: 25px;
+ line-height: 50px;
+ color: white;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.roja{
+    background-color: red;
+    border: 2px solid black;
+    flex-grow: 1;
+
+    align-items: center;
+}
+
+
+.azul{
+    background-color: blue;
+    border: 2px solid black;
+    flex-grow: 1;
+    align-items: center;
+}
+
+
+.verde{
+background-color: green;
+border: 2px solid black;
+flex-grow: 1;
+}
+
+
+.naranja{
+    background-color: orange;
+    border: 2px solid black;
+    flex-grow: 1;
+}
+
+
+
+
